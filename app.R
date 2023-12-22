@@ -22,7 +22,7 @@ ui <- navbarPage("SCENITH MM137", # Add navbarPage here
                       ".rds")
           ),
           numericInput("sampleSize", "Sample Size", value = 10000, min = 1),
-          selectInput("type", "Color by", choices = c("cluster", "cell"), selected = "cluster"),
+          selectInput("type", "Color by", choices = c("cluster", "cell"), selected = "cell"),
           uiOutput("coltype"), # Use uiOutput here
           selectInput("select_trim", "Trim variable by percentile", choices = c("no trim", as.character(1:10)), selected = "no trim"),
           uiOutput("clustype"),

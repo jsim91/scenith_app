@@ -9,6 +9,7 @@ library(FCSimple)
 library(RColorBrewer)
 library(circlize)
 library(shinyBS)
+library(ComplexHeatmap)
 
 ui <- navbarPage("SCENITH MM137", # Add navbarPage here
   tabPanel("UMAP", # Add tabPanel for each page
